@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '../assets/amritGurungLogo.png'
-import { Link } from 'react-router-dom'
+import { motion } from "framer-motion";
+import { NavLink } from 'react-router-dom'
 import { FaLinkedin } from 'react-icons/fa'
 import { FaGithub } from 'react-icons/fa'
 import { FaSquareXTwitter } from 'react-icons/fa6'
@@ -12,13 +13,25 @@ const Navbar = () => {
             <img src={logo} alt="" />
         </div>
         <div className='flex m-8 justify-center items-center gap-4 text-2xl'>
-          	<Link to="https://www.linkedin.com/in/amrit-gurung-4028a3272/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></Link>
+          	<motion.div
+			whileHover={{ scale: 1.2 }}>
+				<NavLink to="https://www.linkedin.com/in/amrit-gurung-4028a3272/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></NavLink>
+			</motion.div>
 
-        	<Link to="https://github.com/hell0world01" target="_blank" rel="noopener noreferrer"><FaGithub /></Link>
+        	<motion.div
+			whileHover={{ scale: 1.2 }}>
+				<NavLink to="https://github.com/hell0world01" target="_blank" rel="noopener noreferrer"><FaGithub /></NavLink>
+			</motion.div>
 
-			<Link to="https://www.instagram.com/the.kenzy/" target="_blank" rel="noopener noreferrer"><FaInstagram /></Link>
+			<motion.div
+			whileHover={{ scale: 1.2 }}>
+				<NavLink to="https://www.instagram.com/the.kenzy/" target="_blank" rel="noopener noreferrer"><FaInstagram /></NavLink>
+			</motion.div>
 
-			<Link to=""><FaSquareXTwitter /></Link>
+			<motion.div
+			whileHover={{ scale: 1.2 }}>
+				<NavLink to=""><FaSquareXTwitter /></NavLink>
+			</motion.div>
         </div>
     </nav>
   )

@@ -17,7 +17,7 @@ const animateXY = duration => ({
 });
 const Technologies = () => {
   return (
-    <div className='border-b border-neutral-800 pb-24'>
+    <div className='pb-24'>
         <h2 className='my-20 text-center text-4xl'>Technologies</h2>
         <div className='flex justify-center flex-wrap gap-4'>
             <motion.div
@@ -29,7 +29,7 @@ const Technologies = () => {
             </motion.div>
 
             <motion.div 
-            variants={animateXY(2.5)}
+            variants={animateXY(3)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
@@ -37,7 +37,7 @@ const Technologies = () => {
             </motion.div>
 
             <motion.div 
-            variants={animateXY(3)}
+            variants={animateXY(4)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
@@ -45,7 +45,7 @@ const Technologies = () => {
             </motion.div>
 
             <motion.div 
-            variants={animateXY(3.5)}
+            variants={animateXY(5)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>
@@ -53,7 +53,7 @@ const Technologies = () => {
             </motion.div>
 
             <motion.div 
-            variants={animateXY(4)}
+            variants={animateXY(6)}
             initial="initial"
             animate="animate"
             className='rounded-2xl border-4 border-neutral-800 p-4'>

@@ -16,7 +16,7 @@ const Hero = () => {
                         whileTap={{ scale: 1.1 }}
                         drag="x"
                         dragConstraints={{ left: -100, right: 100 }} 
-                        initial={{ opacity: 0 }}
+                        initial={{ opacity: 0}}
                         whileInView={{ opacity: 1 }}
                         className='bg-gradient-to-r from-pink-300 via-slate-500 
                         to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>

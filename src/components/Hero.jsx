@@ -20,10 +20,10 @@ const Hero = () => {
                         whileInView={{ opacity: 1 }}
                         className='bg-gradient-to-r from-pink-300 via-slate-500 
                         to-purple-500 bg-clip-text text-4xl tracking-tight text-transparent'>
-                        Front-end Developer
+                        Video Editor
                     </motion.span>
                     <p className='my-2 max-w-xl py-6 font-light tracking-tighter'>
-                    "Passionate about crafting engaging and responsive user interfaces, I am working towards becoming a skilled frontend developer with a focus on creating seamless web experiences."
+                    "I love bringing stories to life through video. Whether it's editing clips or shooting fresh content, I'm all about creating visuals that connect with people and leave an impact."
                     </p>
                 </div>
             </div>
